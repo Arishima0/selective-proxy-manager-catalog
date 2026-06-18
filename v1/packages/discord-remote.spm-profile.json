@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1",
+  "packageId": "discord-remote",
+  "packageVersion": "1.0.0",
+  "compatibilityVersion": "1",
+  "displayName": "Discord",
+  "notes": "Exported local profile package. It contains app targets, route domains, hosts and checks, but no server credentials.",
+  "supportedApps": [
+    "Discord.exe",
+    "Update.exe"
+  ],
+  "processHints": [
+    "Discord.exe",
+    "Update.exe"
+  ],
+  "tags": [
+    "local",
+    "exported"
+  ],
+  "knownFixes": [],
+  "qosHints": null,
+  "captureHints": null,
+  "profile": {
+    "name": "discord-remote",
+    "displayName": "Discord",
+    "description": "Remote catalog starter profile for Discord endpoints.",
+    "targetProcesses": [
+      "Discord.exe",
+      "Update.exe"
+    ],
+    "targetPaths": [],
+    "includeChildProcesses": true,
+    "activeServer": "",
+    "connectionMode": "auto",
+    "listenAddress": "127.0.0.1",
+    "listenPorts": [
+      80,
+      443
+    ],
+    "upstream": {
+      "type": "socks",
+      "server": "127.0.0.1",
+      "serverPort": 13399,
+      "version": "5"
+    },
+    "hosts": [
+      "cdn.discordapp.com",
+      "discord-attachments-uploads-prd.storage.googleapis.com",
+      "discord.com",
+      "dl.discordapp.net",
+      "gateway.discord.gg",
+      "images-ext-1.discordapp.net",
+      "images-ext-2.discordapp.net",
+      "latency.discord.media",
+      "media.discordapp.net",
+      "stable.dl2.discordapp.net",
+      "updates.discord.com",
+      "www.discord.com"
+    ],
+    "routeDomains": [
+      "cdn.discordapp.com",
+      "discord-attachments-uploads-prd.storage.googleapis.com",
+      "discord.com",
+      "dl.discordapp.net",
+      "gateway.discord.gg",
+      "images-ext-1.discordapp.net",
+      "images-ext-2.discordapp.net",
+      "latency.discord.media",
+      "media.discordapp.net",
+      "stable.dl2.discordapp.net",
+      "updates.discord.com",
+      "www.discord.com"
+    ],
+    "routeDomainSuffixes": [
+      "discord.com",
+      "discord.gg",
+      "discord.media",
+      "discordapp.com",
+      "discordapp.net"
+    ],
+    "checkRequests": [
+      {
+        "host": "discord.com",
+        "port": 443,
+        "path": "/api/v10/gateway"
+      },
+      {
+        "host": "updates.discord.com",
+        "port": 443,
+        "path": "/distributions/app/manifests/latest?channel=stable\u0026platform=win\u0026arch=x64"
+      }
+    ],
+    "packageId": "",
+    "packageVersion": "",
+    "packageSource": "",
+    "packagePayloadSha256": "",
+    "ruleSource": "manual"
+  },
+  "payloadSha256": "5853bf0a151f337de24b96969ebf617f17ed5440bf1f2c2f6ba42c8c6100dc7a"
+}
