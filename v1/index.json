@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generatedUtc": "2026-06-18T23:27:56.261Z",
+  "generatedUtc": "2026-06-18T23:46:28.227Z",
   "signatureAlgorithm": "ECDSA-P256-SHA256",
   "signingKeyId": "spm-catalog-prod-2026",
   "entries": [
@@ -36,7 +36,7 @@
       "packageVersion": "1.0.0",
       "compatibilityVersion": "1",
       "packageUrl": "packages/discord-remote.spm-profile.json",
-      "payloadSha256": "5853bf0a151f337de24b96969ebf617f17ed5440bf1f2c2f6ba42c8c6100dc7a",
+      "payloadSha256": "20658b8bb8c80620183e0d70b4910be3e4aae844e6a8e4a7fc45c30453586526",
       "updatedUtc": "2026-06-18T21:40:00.0000000Z",
       "hostCount": 12,
       "routeDomainCount": 12,
@@ -44,8 +44,8 @@
       "checkCount": 2,
       "signatureAlgorithm": "ECDSA-P256-SHA256",
       "signingKeyId": "spm-catalog-prod-2026",
-      "payloadSignature": "MEQCIAagMAoXhhPNJE0nW6QRbE0ei+GBIicm3xgp8qgtm4+FAiAakPcyxCvQAcbj+SCSPJkh+ewtrALPBsCCSlDC1zb++w=="
+      "payloadSignature": "MEQCIEEAPk3oOx/mSIc1dA6Rh9uuSK4QR58VvutqSRLsam1bAiBslZMDWQotcFjw4d9l1yOGsQZUboR3GxLx7GLTqunRKw=="
     }
   ],
-  "indexSignature": "MEUCICOsDpouMKzJjd1+Rn0rMquypzzOIMAbGeqH+3Pn+AyHAiEAieyWHK6+ol5BIxcOXT/TDlU2sqo+VN/IZu9Mm3qTXGc="
+  "indexSignature": "MEQCIH7Js/GuhyeRZHgEzI+W2j4b0fwbrpNx1XQiuDEYDGsUAiAAtqF/VkyD3mfihg3F1QaLHiH+LJDjAcqouXI+nBFN+g=="
 }
